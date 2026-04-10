@@ -49,8 +49,8 @@ mongoose
 
         /* ADD DATA ONE TIME ONLY OR AS NEEDED */
         
-        await KPI.insertMany(kpis);
-        await Product.insertMany(products);
-        await Transaction.insertMany(transactions);
+        // await KPI.insertMany(kpis);
+        // await Product.insertMany(products);
+        // await Transaction.insertMany(transactions);
     })
     .catch((error) => console.log(`${error} did not connect`));
